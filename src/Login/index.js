@@ -1,37 +1,50 @@
 import React from 'react'
+import "./login.css";
 
 const Login = () => {
   return (
-    <div>
-      <div>
-        Algum texto
+    <main className='main'>
+      <div className='form'>
+        <div className='headerText'>
+          Faça seu Login
+        </div>
+        <div className='inputs'>
+          <label className='input-label'>
+            <input
+                className="input"
+                type="email"
+                placeholder="Email"
+                name="email"
+              />
+          </label>
+          <label className='input-label' for=''>
+            <input
+              className="input"
+              type="password"
+              placeholder="Senha"
+            />
+          </label>
+        </div>
+        <div className='container'>
+          <div className='btn'>
+            <button type='submit'>Sing In</button>
+          </div>
+        </div>
+        <div>
+          <p>Esqueceu a senha?</p>
+        </div>
       </div>
-      <div>
-        <input
-            className="email-input"
-            type="email"
-            placeholder="Email"
-            name="email"
-          />
-          <input
-            className="password-input"
-            type="password"
-            placeholder="Senha"
-            name="password"
-          />
+      <div className='animation-area'>
+        <ul className='box-area'>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
-      <div>
-        <button type='submit'>Sing In</button>
-      </div>
-      <div>
-        <p>Esqueceu a senha?</p>
-      </div>
-      <div>
-        <p>entrar com email ou apple</p>
-        <button>Logo google</button>
-        <button>Logo apple</button>
-      </div>
-    </div>
+    </main>
   )
 }
 

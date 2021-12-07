@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route exact path='/' element={ <EntryScreen /> } />
-      <Route exact path='/Register' element={ <Register /> } />
+      <Route exact path='/Cadastro' element={ <Register /> } />
       <Route exact path='/Login' element={ <Login /> } />
     </Routes>
   );

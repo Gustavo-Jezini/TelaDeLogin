@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: auto;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  animation: fade 1s;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 45px;
+  width: auto;
+  border-radius: 6px;
+  text-align: center;
+  border: none;
+  background-color: blanchedalmond;
+}
+
+.input-label {
+  width: 100%;
+  height: 45px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.headerText {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
